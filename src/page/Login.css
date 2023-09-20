@@ -1,0 +1,61 @@
+.App{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://mebincdn.themebin.com/1664271580523.jpg);
+}
+.Box{
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: black;
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.Title{
+    margin-left: 40px;
+    color:white;
+}
+.Text{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: gray;
+}
+.Text::placeholder{
+    color: white;
+}
+.Botton{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    height: 30px;
+    background-color:red;
+    color: white;
+    border-radius: 3px;
+}
+.Logo{
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+.Remember{
+    color: white;
+    display: flex;
+    margin-left: 40px;
+}
+.Help{
+    margin-left: auto;
+    margin-right: 40px;
+}
+.New{
+    color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+}
